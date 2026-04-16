@@ -1,5 +1,8 @@
-streamlit==1.30.0
-tensorflow==2.13.0
-numpy==1.24.3
+streamlit
+tensorflow-cpu==2.10.0
+numpy
+pandas
 pillow
 fpdf
+matplotlib
+h5py==3.7.0
