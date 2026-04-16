@@ -7,7 +7,7 @@ from fpdf import FPDF
 from datetime import datetime
 
 # ---------------- LOAD MODEL ----------------
-model = tf.keras.models.load_model("kidney_model.h5", compile=False)
+model = tf.keras.models.load_model("kidney_model.h5", compile=False, safe_mode=False)
 classes = ['Cyst', 'Normal', 'Stone', 'Tumor']
 
 # ---------------- PAGE CONFIG ----------------
